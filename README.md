@@ -176,19 +176,6 @@ wikibase-docker-dev_wdqs-updater_1  /entrypoint.sh /runUpdate.sh Exit 1
 ```
 The only way to repair that is too reset **EVERYTHING**.
 
-## autocomplete in the query service uses wrong prefix  
-
-## guzzlehttp/streams
-on _wikibase_1 /var/www/html/composer.json change
-
-```
-"guzzlehttp/streams": "^3.0"
-```
-to
-```
-"guzzlehttp/streams": "3.0.0"
-```
-
 # Useful links
 
 https://www.mediawiki.org/wiki/Wikibase
